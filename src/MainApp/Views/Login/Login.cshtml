@@ -1,0 +1,12 @@
+@model Login
+<form asp-action="Login">
+    <div class="form-group">
+        <label asp-for="UserName" class="form-label"> </label>
+        <input class="form-control" type="email" asp-for="UserName"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Senha" class="form-label"> </label>
+        <input class="form-control" type="password" asp-for="Senha"/>
+    </div>
+    <input type="submit" value="login" class="btn btn-primary"/>
+</form>
